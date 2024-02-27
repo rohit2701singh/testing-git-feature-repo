@@ -15,6 +15,13 @@
         .navbar {
             background-color: #add8e6; /* Light blue navbar color */
         }
+
+        .card-img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -45,15 +52,21 @@
     
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6 mx-auto">
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Welcome to My Website</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra, mauris vel convallis vestibulum, odio dui consequat nisl, vel fermentum libero metus ut tortor.</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra, mauris vel convallis vestibulum, odio dui consequat nisl, vel fermentum libero metus ut tortor. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra, mauris vel convallis vestibulum, odio dui consequat nisl, vel fermentum libero metus ut tortor.
+                        </p>
                         <button class="btn btn-primary">Learn More</button>
                         <button class="btn btn-secondary">Contact Us</button>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6">
+                <img class="card-img" src="https://via.placeholder.com/200" alt="Card Image">
             </div>
         </div>
     </div>
